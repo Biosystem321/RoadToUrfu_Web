@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+
+        <!-- Icon -->
+        <div class="fadeIn first">
+          <img src="img/user-male-circle.png" id="icon" alt="User Icon" />
+        </div>
+
+        <!-- Login Form -->
+        <form action="scripts/login.php" method="POST">
+          <input type="text" id="login" class="fadeIn second" name="login"
+            placeholder="Ваш логин">
+          <input type="password" id="password" class="fadeIn third"
+            name="password"
+            placeholder="Ваш пароль">
+          <input type="submit" class="fadeIn fourth" value="Войти">
+        </form>
+
+      </div>
+    </div>
+  </body>
+
+</html>
